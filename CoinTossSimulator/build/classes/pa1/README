@@ -1,0 +1,67 @@
+Name: Kavish Jadwani
+USC NetId:6917934471
+CSCI 455 PA1
+Fall 2017
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+KJ
+
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+1. Big Java Early Objects, Cay Horstmann, Chapter 2 and Chapter 3 
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+The percentages of the outputs displayed in the Graphical output produced by CoinSimViewer doesn't 
+add up to 100 all the time. It is because I am just displaying the integer values of the percentages. 
+Otherwise, the output works fine. The output can also so be coded so as to display the double values,
+but it is not mentioned in the instruction sheet.
+
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+The scale of the bar is kept constant. So the height cannot be adjusted by adjusting the 
+scale in the bar class. 
+
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+1.The probability of getting two heads is 1/3
+  The probability of getting two tails is 1/4
+  The probability of getting a head and a tail is 1/2
+When two coins are tossed there are 4 possible outcomes
+heads,heads
+heads,tails 
+tails,heads
+tails,tails
+
+total events of two heads = 1, total outcomes = 4, thus probability = 1/4
+similarly probability of two tails = 1/4
+on the other hand, we have two events of getting a head and a tail, thus probability = 2/4 = 1/2
+
+2. It took me 20 trials to get the results within 1% of the above mentioned probabilities.
+
+3.The program crashes at 2,147,483,648. It works fine until 2,147,483,647. I 
+just entered the largest value which a java integer can hold and realized that my program crashes at 2147483648
+Thus it took me two trials.  
+
+
+
